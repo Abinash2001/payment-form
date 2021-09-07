@@ -1,0 +1,74 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 15PX 30PX;
+    padding: 18px;
+}
+.container{
+    background-image: url(img.jpg);
+    background-color: rgba(250, 235, 215, 0.548);
+    padding: 5px 20px 15px 20px;
+    border: 1px solid rgb(6, 160, 211);
+    border-radius: 10px;
+}
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="password"],
+input[type="data"],
+select,
+textarea {
+    background-color: rgba(250, 235, 215, 0.247);
+    width: 100%;
+    padding: 10px;
+    border: 1px solid lightcoral;
+    border-radius: 5px;
+    margin: 10px;
+}
+fieldset{
+    background-color: rgba(255, 255, 255, 0.103);
+    border: 1px solid rgb(243, 97, 71);
+    border-radius: 5px;
+}
+.main_heading{
+    text-align:center;
+    font-size: 50px;
+    font-style: italic;
+}
+input[type="submit"]{
+    background-color: rgb(36, 241, 125);
+    color: rgb(26, 23, 226);
+    width: 100%;
+    font-size: medium;
+    font-style: italic;
+    padding: 12px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px solid lightcoral;
+}
+input[type="reset"]{
+    background-color: rgb(36, 241, 125);
+    color: rgb(26, 23, 226);
+    width: 100%;
+    font-size: medium;
+    font-style: italic;
+    padding: 12px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px solid lightcoral;
+}
+input[type="submit"]:hover{
+    background-color: tomato;
+}
+input[type="reset"]:hover{
+    background-color: tomato;
+}
+input[type="date"]
+{
+    font-size:large;
+}
+.contact_heading{
+    font-style: italic;
+}

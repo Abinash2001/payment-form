@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+            <!--create a form by form syntex-->
+        <form action="">
+            <h1 class="main_heading">Payment Form</h1>
+            <p>Required fileds are followed by *</p>
+            <h2 class="contact_heading">Contact Information</h2>
+            <p>Name: * <input type="text" name="name"required></p><!--input for take input from user-->
+            <fieldset>
+                <legend>Gender * </legend>
+                    <p>
+                        <!--input gender-->
+                        Male <input type="radio" name="gender" id="male"required> <!--required use for alert-->
+                        female <input type="radio" name="gender" id="female"required> 
+                    </p>
+            </fieldset>
+            <p>Address: <textarea name="address" id="address" cols="30" rows="4"></textarea></p><!--textarea take multiple line input-->
+            <p>Email: * <input type="email" name="email" id=""required></p>
+            <p>Pincode: * <input type="number" name="pincode" id="pincode"required></p>
+            <h2 class="contact_heading">Payment Information</h2>
+            <p>Card Type: * <!--selection type-->
+            <select name="card_type" id="card_type"required>
+                    <option value="">--Select a Card Type--</option>
+                    <option value="visa">Visa</option>
+                    <option value="rupay">Rupay</option>
+                    <option value="mastrecard">Mastercard</option>
+                </select>
+            </p>
+            <p>
+                Card Number * <input type="number" name="card_number" id="card_number"required>
+            </p>
+            <p>
+                Expiration Date: * <input type="date" name="exp_date" id="exp_date"required>
+            </p>
+            <p>
+                CYY * <input type="password" name="cvv" id="cvv"required>
+            </p>
+            <input type="submit" value="Pay Now">
+            <input type="reset" value="Reset Now">
+        </form>
+    </div>
+</body>
+</html>
